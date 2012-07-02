@@ -47,14 +47,28 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     
     [loader addObjectsToWorld:world cocos2dLayer:self];
     
+    [loader useLevelHelperCollisionHandling];
+    
     [self schedule: @selector(tick:) interval:1.0f/60.0f];	
     
     if([loader hasPhysicBoundaries])
         [loader createPhysicBoundaries:world];
     
-    
     angryBird = [loader spriteWithUniqueName:@"ghetto_bird"];
     
+    // register collisions 
+    
+    [loader registerBeginOrEndCollisionCallbackBetweenTagA:ANGRY_BIRD andTagB:PIG idListener:self selListener:@selector(collisionBetweenAngryBirdAndPig:)];
+    
+}
+
+// invoked when the angry bird collides with the pig 
+-(void) collisionBetweenAngryBirdAndPig:(LHContactInfo*)contact
+{   
+    if([contact contactType] == LH_BEGIN_CONTACT)
+    {
+        NSLog(@"collision!");
+    }
 }
 
 -(id) init

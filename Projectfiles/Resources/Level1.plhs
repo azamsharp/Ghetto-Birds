@@ -204,9 +204,9 @@
 								<key>SpriteSize</key>
 								<string>{17.75, 21}</string>
 								<key>Tag</key>
-								<integer>0</integer>
+								<integer>1</integer>
 								<key>TagName</key>
-								<string>DEFAULT</string>
+								<string>ANGRY_BIRD</string>
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
@@ -700,9 +700,9 @@
 								<key>SpriteSize</key>
 								<string>{18.75, 16.5}</string>
 								<key>Tag</key>
-								<integer>0</integer>
+								<integer>2</integer>
 								<key>TagName</key>
-								<string>DEFAULT</string>
+								<string>PIG</string>
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
@@ -785,6 +785,8 @@
 		<key>Tags</key>
 		<array>
 			<string>DEFAULT</string>
+			<string>ANGRY_BIRD</string>
+			<string>PIG</string>
 		</array>
 		<key>ZoomValue</key>
 		<real>0.0</real>
