@@ -15,5 +15,6 @@
     b2World *world; 
     LevelHelperLoader *loader; 
     LHSprite *angryBird; 
+    LHSprite *poof; 
 }
 @end

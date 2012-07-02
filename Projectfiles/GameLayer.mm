@@ -60,9 +60,20 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     
     [loader registerBeginOrEndCollisionCallbackBetweenTagA:ANGRY_BIRD andTagB:PIG idListener:self selListener:@selector(collisionBetweenAngryBirdAndPig:)];
     
+    // register notification for animations 
+    [[NSNotificationCenter defaultCenter] addObserver:self 
+                                             selector:@selector(poofAnimationHasEnded:) 
+                                                 name:LHAnimationHasEndedNotification
+                                               object:poof];
     
     
-    
+}
+
+-(void)poofAnimationHasEnded:(NSNotification*) notification
+{
+    LHSprite* sprite = [notification object];    
+        
+    [sprite removeSelf];
 }
 
 // invoked when the angry bird collides with the pig 
@@ -72,7 +83,7 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     {
         // perform poof animation 
         
-        LHSprite *poof = [loader spriteWithUniqueName:@"poof1"];
+        poof = [loader spriteWithUniqueName:@"poof1"];
         poof.position = contact.spriteB.position;
         poof.visible = YES; 
         
@@ -81,6 +92,8 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
         [contact.spriteB removeSelf];
         
         [poof playAnimation];
+        
+
     }
 }
 
