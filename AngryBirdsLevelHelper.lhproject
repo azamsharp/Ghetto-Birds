@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2HDSuffix</key>
+	<string>-ipadhd</string>
+	<key>AutoGenerateCode</key>
+	<false/>
+	<key>AutoIncludeXCode</key>
+	<false/>
+	<key>BundleIdentifier</key>
+	<string></string>
+	<key>CodePathRelative</key>
+	<string>.</string>
+	<key>CustomClasses</key>
+	<array/>
+	<key>CustomScreenSize</key>
+	<string>{480, 320}</string>
+	<key>Device</key>
+	<integer>0</integer>
+	<key>Engine</key>
+	<integer>0</integer>
+	<key>HDSuffix</key>
+	<string>-hd</string>
+	<key>LastLevelLoaded</key>
+	<string>/Users/azamsharp/Kobold2D/Kobold2D-1.0.1/AngryBirds/Projectfiles/Resources/Level1.plhs</string>
+	<key>Orientation</key>
+	<integer>1</integer>
+	<key>ProjectName</key>
+	<string>AngryBirdsLevelHelper</string>
+	<key>ProjectPathRelative</key>
+	<string>./</string>
+	<key>Tags</key>
+	<array>
+		<string>DEFAULT</string>
+	</array>
+</dict>
+</plist>

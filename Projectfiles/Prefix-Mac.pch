@@ -1,0 +1,34 @@
+/*
+ * Kobold2D™ --- http://www.kobold2d.org
+ *
+ * Copyright (c) 2010-2011 Steffen Itterheim. 
+ * Released under MIT License in Germany (LICENSE-Kobold2D.txt).
+ */
+
+//
+// Prefix header for all source files of the project
+//
+
+#import <Availability.h>
+
+#ifdef __OBJC__
+
+#import <Cocoa/Cocoa.h>
+
+// Cocos2D headers
+#import "cocos2d.h"
+
+// Kobold2D headers
+#import "kobold2d.h"
+#import "kkARCSupport.h"
+
+// Wax (and Lua) headers
+#import "luawax.h"
+
+#endif // __OBJC__
+
+
+// C++ header files
+#ifdef __cplusplus
+#import "Box2D.h"
+#endif // __cplusplus

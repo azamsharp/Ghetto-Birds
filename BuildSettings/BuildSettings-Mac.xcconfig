@@ -1,0 +1,34 @@
+//
+// Kobold2D™ --- http://www.kobold2d.org
+//
+// Copyright (c) 2010-2011 Steffen Itterheim. 
+// Released under MIT License in Germany (LICENSE-Kobold2D.txt).
+//
+
+#include "../__Kobold2D__/buildsettings/FrameworksAndLibraries.xcconfig"
+
+// ***************************************
+// Actual compiler settings filled in here
+// ***************************************
+
+OTHER_LDFLAGS = $(inherited) $(KKFRAMEWORKS_MAC)
+
+INFOPLIST_FILE = Projectfiles-Mac/Resources/Info.plist
+GCC_PREFIX_HEADER = Projectfiles/Prefix-Mac.pch
+
+// avoid "no packager exists for this type of archive" error
+// see: http://stackoverflow.com/questions/5271496/xcode4-ios-4-3-no-packager-exists-for-the-type-of-archive
+SKIP_INSTALL = NO
+
+// Treating warnings as errors is considered a best practice as it forces you to fix all potentially fatal problems.
+// Getting into the bad habit of ignoring warnings will cause you to miss the really important warnings.
+// However, Kobold2D understands that beginning game developers have a different priority: getting the code to run.
+// It is highly recommended to turn on "treat warnings as errors" for experienced developers.
+// See this article for rationale: http://www.artima.com/cppsource/codestandards.html
+GCC_TREAT_WARNINGS_AS_ERRORS = NO
+
+// Enable automatic reference counting (ARC)
+// How does ARC work? http://stackoverflow.com/questions/6385212/how-does-the-new-automatic-reference-counting-mechanism-work
+// Transitioning to ARC: http://developer.apple.com/library/ios/#releasenotes/ObjectiveC/RN-TransitioningToARC/_index.html
+// ARC is available on iOS 4 or newer, Mac OS X 10.6 (32-Bit & 64-Bit) and Mac OS X 10.7 (64-Bit only)
+CLANG_ENABLE_OBJC_ARC[arch=x86_64] = YES

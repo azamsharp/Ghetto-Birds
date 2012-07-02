@@ -1,0 +1,13 @@
+//
+// Kobold2D™ --- http://www.kobold2d.org
+//
+// Copyright (c) 2010-2011 Steffen Itterheim. 
+// Released under MIT License in Germany (LICENSE-Kobold2D.txt).
+//
+
+
+#include "../__Kobold2D__/buildsettings/HeaderSearchPaths.xcconfig"
+#include "../__Kobold2D__/buildsettings/Common-Release.xcconfig"
+#include "../__Kobold2D__/buildsettings/Common-iOS.xcconfig"
+
+#include "BuildSettings-iOS.xcconfig"
