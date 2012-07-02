@@ -26,7 +26,7 @@
 			<key>MaxSheetSize</key>
 			<integer>4096</integer>
 			<key>NpotSize</key>
-			<string>{1024, 958}</string>
+			<string>{1024, 956}</string>
 			<key>Padding</key>
 			<integer>8</integer>
 			<key>PixelFormat</key>
@@ -392,9 +392,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{99, 222.75}, {18.75, 16.5}}</string>
+						<string>{{148.25, 193}, {18.75, 16.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{396, 891}, {75, 66}}</string>
+						<string>{{593, 772}, {75, 66}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -420,7 +420,7 @@
 						<key>OriginalSize</key>
 						<string>{75, 66}</string>
 						<key>Position</key>
-						<string>{396, 891}</string>
+						<string>{593, 772}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -986,9 +986,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{148.25, 193}, {38.75, 5.75}}</string>
+						<string>{{168, 193}, {38.75, 5.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{593, 772}, {155, 23}}</string>
+						<string>{{672, 772}, {155, 23}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -1014,7 +1014,7 @@
 						<key>OriginalSize</key>
 						<string>{155, 23}</string>
 						<key>Position</key>
-						<string>{593, 772}</string>
+						<string>{672, 772}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -1085,9 +1085,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{148.25, 199.75}, {5.75, 38.75}}</string>
+						<string>{{168, 199.75}, {5.75, 38.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{593, 799}, {23, 153}}</string>
+						<string>{{672, 799}, {23, 153}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -1113,7 +1113,7 @@
 						<key>OriginalSize</key>
 						<string>{23, 153}</string>
 						<key>Position</key>
-						<string>{593, 799}</string>
+						<string>{672, 799}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -1140,7 +1140,129 @@
 		</dict>
 	</array>
 	<key>SH_ANIMATIONS_LIST</key>
-	<array/>
+	<array>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{33, 193}, {32, 30.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{132, 772}, {128, 123}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32, 32}</string>
+					<key>TextureOffset</key>
+					<string>{0, -0.625}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>poof1</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{0, 193}, {32, 32}}</string>
+					<key>Frame-HD</key>
+					<string>{{0, 772}, {128, 128}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32, 32}</string>
+					<key>TextureOffset</key>
+					<string>{0, -0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>poof2</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{66, 193}, {32, 30.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{264, 772}, {128, 123}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32, 32}</string>
+					<key>TextureOffset</key>
+					<string>{0, -0.375}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>poof3</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{99, 193}, {25, 28.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{396, 772}, {100, 115}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32, 32}</string>
+					<key>TextureOffset</key>
+					<string>{0, -0.875}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>poof4</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{125, 193}, {22.75, 24}}</string>
+					<key>Frame-HD</key>
+					<string>{{500, 772}, {89, 96}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{32, 32}</string>
+					<key>TextureOffset</key>
+					<string>{-0.125, -1}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>poof5</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<false/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<false/>
+			<key>SheetImage</key>
+			<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+			<key>SheetName</key>
+			<string>UntitledSheet</string>
+			<key>StartAtLaunch</key>
+			<false/>
+			<key>UniqueName</key>
+			<string>PoofAnimation</string>
+		</dict>
+	</array>
 	<key>SaveSettings</key>
 	<dict>
 		<key>Dither</key>
