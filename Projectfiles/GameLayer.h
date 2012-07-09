@@ -16,5 +16,6 @@
     LevelHelperLoader *loader; 
     LHSprite *angryBird; 
     LHSprite *poof; 
+    LHParallaxNode *parallaxNode; 
 }
 @end

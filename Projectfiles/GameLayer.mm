@@ -57,45 +57,47 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     angryBird = [loader spriteWithUniqueName:@"ghetto_bird"];
     
     // register collisions 
-    
+   
     [loader registerBeginOrEndCollisionCallbackBetweenTagA:ANGRY_BIRD andTagB:PIG idListener:self selListener:@selector(collisionBetweenAngryBirdAndPig:)];
     
-    // register notification for animations 
     [[NSNotificationCenter defaultCenter] addObserver:self 
                                              selector:@selector(poofAnimationHasEnded:) 
                                                  name:LHAnimationHasEndedNotification
                                                object:poof];
     
     
+    // create parallax
+    parallaxNode = [loader parallaxNodeWithUniqueName:@"ColdFrontParallax"];
+    
+    [parallaxNode setPaused:TRUE];
+    
+    
 }
+
+-(void) collisionBetweenAngryBirdAndPig:(LHContactInfo *) contact
+{
+    if([contact contactType] == LH_BEGIN_CONTACT) 
+    {
+        poof = [loader spriteWithUniqueName:@"poof1"];
+        poof.position = contact.spriteB.position;
+        poof.visible = YES;
+        [poof prepareAnimationNamed:@"PoofAnimation" fromSHScene:@"AngryBirdsSpriteHelper"];
+        [poof playAnimation];
+        
+        [contact.spriteB removeSelf];
+    }
+}
+
 
 -(void)poofAnimationHasEnded:(NSNotification*) notification
 {
+    NSLog(@"notification ended");
+    
     LHSprite* sprite = [notification object];    
         
     [sprite removeSelf];
 }
 
-// invoked when the angry bird collides with the pig 
--(void) collisionBetweenAngryBirdAndPig:(LHContactInfo*)contact
-{   
-    if([contact contactType] == LH_BEGIN_CONTACT)
-    {
-        // perform poof animation 
-        
-        poof = [loader spriteWithUniqueName:@"poof1"];
-        poof.position = contact.spriteB.position;
-        poof.visible = YES; 
-        
-        [poof prepareAnimationNamed:@"PoofAnimation" fromSHScene:@"AngryBirdsSpriteHelper"];
-        
-        [contact.spriteB removeSelf];
-        
-        [poof playAnimation];
-        
-
-    }
-}
 
 -(id) init
 {
@@ -118,11 +120,11 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     
     if(distance <= 10) 
     {
+        
         [angryBird makeDynamic];
         
         angryBird.body->ApplyLinearImpulse(b2Vec2(0.5f,0.25f), angryBird.body->GetWorldCenter());
-        
-        
+       
     }
 
 }

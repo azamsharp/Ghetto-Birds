@@ -26,7 +26,7 @@
 			<key>MaxSheetSize</key>
 			<integer>4096</integer>
 			<key>NpotSize</key>
-			<string>{1024, 956}</string>
+			<string>{1920, 1412}</string>
 			<key>Padding</key>
 			<integer>8</integer>
 			<key>PixelFormat</key>
@@ -41,6 +41,1011 @@
 			<string></string>
 			<key>Sheet_Sprites_Info</key>
 			<dict>
+				<key>bear1</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<string>{28.25, 17.25}</string>
+									<string>{-28.25, 17.25}</string>
+									<string>{-28.25, -17.25}</string>
+									<string>{28.25, -17.25}</string>
+									<string>{28.25, 17.25}</string>
+									<string>{-28.25, -17.25}</string>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>138</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>34.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-28.25, -17.25}</string>
+								<key>LHWidth</key>
+								<real>56.5</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{226, 0}</string>
+									<string>{226, 138}</string>
+									<string>{0, 138}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>226</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>2</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear1</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{257, 161}, {56.5, 34.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{1028, 644}, {226, 138}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear1</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear1.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear1.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {226, 138}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1028, 644}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0.125, -0.125}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear2</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear2</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{257, 232}, {52.75, 34.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{1028, 928}, {209, 139}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear2</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear2.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear2.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {209, 139}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1028, 928}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-2, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear3</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear3</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{257, 267.75}, {52.75, 34.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{1028, 1071}, {209, 139}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear3</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear3.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear3.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {209, 139}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1028, 1071}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-2, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear4</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear4</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{257, 303.5}, {52.75, 34.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{1028, 1214}, {209, 139}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear4</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear4.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear4.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {209, 139}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1028, 1214}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-2, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear5</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear5</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{314.5, 161}, {52.75, 34.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{1258, 644}, {209, 139}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear5</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear5.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear5.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {209, 139}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1258, 644}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-2, -0.25}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear6</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear6</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{314.5, 196.75}, {51, 35}}</string>
+						<key>Frame-HD</key>
+						<string>{{1258, 787}, {204, 140}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear6</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear6.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear6.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {204, 140}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1258, 787}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-2.625, -0.375}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear7</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear7</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{367.75, 161}, {51.75, 34.75}}</string>
+						<key>Frame-HD</key>
+						<string>{{1471, 644}, {205, 137}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear7</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear7.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear7.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {205, 137}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1471, 644}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-2.5, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bear8</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array>
+							<dict>
+								<key>Angle</key>
+								<integer>0</integer>
+								<key>Category</key>
+								<integer>1</integer>
+								<key>Density</key>
+								<real>0.20000000298023224</real>
+								<key>Fixture</key>
+								<array>
+									<string>{26.5, 17.25}</string>
+									<string>{-26.5, 17.25}</string>
+									<string>{-26.5, -17.25}</string>
+									<string>{26.5, -17.25}</string>
+									<string>{26.5, 17.25}</string>
+									<string>{-26.5, -17.25}</string>
+								</array>
+								<key>Friction</key>
+								<real>0.20000000298023224</real>
+								<key>Group</key>
+								<integer>0</integer>
+								<key>Height</key>
+								<real>138</real>
+								<key>HolesPoints</key>
+								<array/>
+								<key>IsCircle</key>
+								<false/>
+								<key>IsRectangle</key>
+								<true/>
+								<key>IsSensor</key>
+								<false/>
+								<key>LHHeight</key>
+								<real>34.5</real>
+								<key>LHShapePositionOffset</key>
+								<string>{-26.5, -17.25}</string>
+								<key>LHWidth</key>
+								<real>53</real>
+								<key>Mask</key>
+								<integer>65535</integer>
+								<key>Name</key>
+								<string>UntitledFixture</string>
+								<key>Restitution</key>
+								<real>0.20000000298023224</real>
+								<key>ShapePoints</key>
+								<array>
+									<string>{0, 0}</string>
+									<string>{212, 0}</string>
+									<string>{212, 138}</string>
+									<string>{0, 138}</string>
+								</array>
+								<key>ShapePositionOffset</key>
+								<string>{0, 0}</string>
+								<key>Tag</key>
+								<integer>0</integer>
+								<key>Width</key>
+								<real>212</real>
+							</dict>
+						</array>
+						<key>Type</key>
+						<integer>2</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bear8</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{257, 196.5}, {53, 34.5}}</string>
+						<key>Frame-HD</key>
+						<string>{{1028, 786}, {212, 138}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bear8</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Bear/bear8.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Bear/bear8.png/</string>
+						<key>OriginalRect</key>
+						<string>{{4, 4}, {212, 138}}</string>
+						<key>OriginalSize</key>
+						<string>{233, 145}</string>
+						<key>Position</key>
+						<string>{1028, 786}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{58.25, 36.25}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{-1.625, -0.125}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
+				<key>bg_mainlevel</key>
+				<dict>
+					<key>IsSHSprite</key>
+					<true/>
+					<key>PhysicProperties</key>
+					<dict>
+						<key>AngularDamping</key>
+						<real>0.0</real>
+						<key>AngularVelocity</key>
+						<real>0.0</real>
+						<key>CanSleep</key>
+						<true/>
+						<key>FixedRot</key>
+						<false/>
+						<key>GravityScale</key>
+						<real>1</real>
+						<key>HandledBySH</key>
+						<true/>
+						<key>IsBullet</key>
+						<false/>
+						<key>LinearDamping</key>
+						<real>0.0</real>
+						<key>LinearVelocity</key>
+						<string>{0, 0}</string>
+						<key>SH_ComplexShapes</key>
+						<array/>
+						<key>Type</key>
+						<integer>3</integer>
+					</dict>
+					<key>SHSheetName</key>
+					<string>UntitledSheet</string>
+					<key>SHSpriteName</key>
+					<string>bg_mainlevel</string>
+					<key>SheetImage</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+					<key>SheetImage-HD</key>
+					<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+					<key>TextureProperties</key>
+					<dict>
+						<key>Angle</key>
+						<integer>0</integer>
+						<key>Border</key>
+						<integer>0</integer>
+						<key>CanBeTrimmed</key>
+						<true/>
+						<key>Color</key>
+						<string>{{1, 1}, {1, 1}}</string>
+						<key>CustomClassName</key>
+						<string></string>
+						<key>FlipX</key>
+						<false/>
+						<key>FlipY</key>
+						<false/>
+						<key>Frame</key>
+						<string>{{0, 0}, {480, 160}}</string>
+						<key>Frame-HD</key>
+						<string>{{0, 0}, {1920, 640}}</string>
+						<key>Image</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+						<key>Image-HD</key>
+						<string>AngryBirdsSpriteHelper_UntitledSheet-ipadhd.png</string>
+						<key>IsCropped</key>
+						<false/>
+						<key>IsDrawable</key>
+						<true/>
+						<key>IsRotated</key>
+						<false/>
+						<key>IsTrimmed</key>
+						<true/>
+						<key>Name</key>
+						<string>bg_mainlevel</string>
+						<key>Opacity</key>
+						<real>1</real>
+						<key>OriginalImage</key>
+						<string>/Users/azamsharp/Downloads/Squirrel_Catapult_GameArt/bg_mainlevel.png</string>
+						<key>OriginalImage_RelativePath</key>
+						<string>../../../../../Downloads/Squirrel_Catapult_GameArt/bg_mainlevel.png/</string>
+						<key>OriginalRect</key>
+						<string>{{0, 0}, {1920, 640}}</string>
+						<key>OriginalSize</key>
+						<string>{1920, 640}</string>
+						<key>Position</key>
+						<string>{0, 0}</string>
+						<key>Scale</key>
+						<string>{1, 1}</string>
+						<key>SpriteSize</key>
+						<string>{480, 160}</string>
+						<key>SpriteWasBreaked</key>
+						<false/>
+						<key>Tag</key>
+						<integer>0</integer>
+						<key>TextureOffset</key>
+						<string>{0, -0}</string>
+						<key>UsesBatchRendering</key>
+						<true/>
+						<key>ZOrder</key>
+						<integer>0</integer>
+					</dict>
+				</dict>
 				<key>dot</key>
 				<dict>
 					<key>IsSHSprite</key>
@@ -95,9 +1100,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{0, 226}, {6, 6}}</string>
+						<string>{{257, 346}, {6, 6}}</string>
 						<key>Frame-HD</key>
-						<string>{{0, 904}, {24, 24}}</string>
+						<string>{{1028, 1384}, {24, 24}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -123,7 +1128,7 @@
 						<key>OriginalSize</key>
 						<string>{24, 24}</string>
 						<key>Position</key>
-						<string>{0, 904}</string>
+						<string>{1028, 1384}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -194,9 +1199,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{0, 0}, {256, 192}}</string>
+						<string>{{0, 161}, {256, 192}}</string>
 						<key>Frame-HD</key>
-						<string>{{0, 0}, {1024, 768}}</string>
+						<string>{{0, 644}, {1024, 768}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -222,7 +1227,7 @@
 						<key>OriginalSize</key>
 						<string>{1024, 768}</string>
 						<key>Position</key>
-						<string>{0, 0}</string>
+						<string>{0, 644}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -293,9 +1298,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{125, 218}, {17.75, 21}}</string>
+						<string>{{455.75, 196.75}, {17.75, 21}}</string>
 						<key>Frame-HD</key>
-						<string>{{500, 872}, {71, 84}}</string>
+						<string>{{1823, 787}, {71, 84}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -321,7 +1326,7 @@
 						<key>OriginalSize</key>
 						<string>{71, 84}</string>
 						<key>Position</key>
-						<string>{500, 872}</string>
+						<string>{1823, 787}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -392,9 +1397,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{148.25, 193}, {18.75, 16.5}}</string>
+						<string>{{314.5, 232.75}, {18.75, 16.5}}</string>
 						<key>Frame-HD</key>
-						<string>{{593, 772}, {75, 66}}</string>
+						<string>{{1258, 931}, {75, 66}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -420,7 +1425,7 @@
 						<key>OriginalSize</key>
 						<string>{75, 66}</string>
 						<key>Position</key>
-						<string>{593, 772}</string>
+						<string>{1258, 931}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -491,9 +1496,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{33, 193}, {32, 30.75}}</string>
+						<string>{{366.5, 196.75}, {32, 30.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{132, 772}, {128, 123}}</string>
+						<string>{{1466, 787}, {128, 123}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -519,7 +1524,7 @@
 						<key>OriginalSize</key>
 						<string>{128, 128}</string>
 						<key>Position</key>
-						<string>{132, 772}</string>
+						<string>{1466, 787}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -590,9 +1595,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{0, 193}, {32, 32}}</string>
+						<string>{{420, 161}, {32, 32}}</string>
 						<key>Frame-HD</key>
-						<string>{{0, 772}, {128, 128}}</string>
+						<string>{{1680, 644}, {128, 128}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -618,7 +1623,7 @@
 						<key>OriginalSize</key>
 						<string>{128, 128}</string>
 						<key>Position</key>
-						<string>{0, 772}</string>
+						<string>{1680, 644}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -689,9 +1694,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{66, 193}, {32, 30.75}}</string>
+						<string>{{399.5, 196.75}, {32, 30.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{264, 772}, {128, 123}}</string>
+						<string>{{1598, 787}, {128, 123}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -717,7 +1722,7 @@
 						<key>OriginalSize</key>
 						<string>{128, 128}</string>
 						<key>Position</key>
-						<string>{264, 772}</string>
+						<string>{1598, 787}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -788,9 +1793,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{99, 193}, {25, 28.75}}</string>
+						<string>{{453, 161}, {25, 28.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{396, 772}, {100, 115}}</string>
+						<string>{{1812, 644}, {100, 115}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -816,7 +1821,7 @@
 						<key>OriginalSize</key>
 						<string>{128, 128}</string>
 						<key>Position</key>
-						<string>{396, 772}</string>
+						<string>{1812, 644}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -887,9 +1892,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{125, 193}, {22.75, 24}}</string>
+						<string>{{432.5, 196.75}, {22.75, 24}}</string>
 						<key>Frame-HD</key>
-						<string>{{500, 772}, {89, 96}}</string>
+						<string>{{1730, 787}, {89, 96}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -915,7 +1920,7 @@
 						<key>OriginalSize</key>
 						<string>{128, 128}</string>
 						<key>Position</key>
-						<string>{500, 772}</string>
+						<string>{1730, 787}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -986,9 +1991,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{168, 193}, {38.75, 5.75}}</string>
+						<string>{{257, 339.25}, {38.75, 5.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{672, 772}, {155, 23}}</string>
+						<string>{{1028, 1357}, {155, 23}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -1014,7 +2019,7 @@
 						<key>OriginalSize</key>
 						<string>{155, 23}</string>
 						<key>Position</key>
-						<string>{672, 772}</string>
+						<string>{1028, 1357}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -1085,9 +2090,9 @@
 						<key>FlipY</key>
 						<false/>
 						<key>Frame</key>
-						<string>{{168, 199.75}, {5.75, 38.75}}</string>
+						<string>{{314.5, 250.25}, {5.75, 38.75}}</string>
 						<key>Frame-HD</key>
-						<string>{{672, 799}, {23, 153}}</string>
+						<string>{{1258, 1001}, {23, 153}}</string>
 						<key>Image</key>
 						<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 						<key>Image-HD</key>
@@ -1113,7 +2118,7 @@
 						<key>OriginalSize</key>
 						<string>{23, 153}</string>
 						<key>Position</key>
-						<string>{672, 799}</string>
+						<string>{1258, 1001}</string>
 						<key>Scale</key>
 						<string>{1, 1}</string>
 						<key>SpriteSize</key>
@@ -1132,7 +2137,7 @@
 				</dict>
 			</dict>
 			<key>Size</key>
-			<string>{1024, 1024}</string>
+			<string>{2048, 2048}</string>
 			<key>Trim</key>
 			<true/>
 			<key>ZOrder</key>
@@ -1148,9 +2153,9 @@
 			<array>
 				<dict>
 					<key>Frame</key>
-					<string>{{33, 193}, {32, 30.75}}</string>
+					<string>{{366.5, 196.75}, {32, 30.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{132, 772}, {128, 123}}</string>
+					<string>{{1466, 787}, {128, 123}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>SpriteSize</key>
@@ -1168,9 +2173,9 @@
 				</dict>
 				<dict>
 					<key>Frame</key>
-					<string>{{0, 193}, {32, 32}}</string>
+					<string>{{420, 161}, {32, 32}}</string>
 					<key>Frame-HD</key>
-					<string>{{0, 772}, {128, 128}}</string>
+					<string>{{1680, 644}, {128, 128}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>SpriteSize</key>
@@ -1188,9 +2193,9 @@
 				</dict>
 				<dict>
 					<key>Frame</key>
-					<string>{{66, 193}, {32, 30.75}}</string>
+					<string>{{399.5, 196.75}, {32, 30.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{264, 772}, {128, 123}}</string>
+					<string>{{1598, 787}, {128, 123}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>SpriteSize</key>
@@ -1208,9 +2213,9 @@
 				</dict>
 				<dict>
 					<key>Frame</key>
-					<string>{{99, 193}, {25, 28.75}}</string>
+					<string>{{453, 161}, {25, 28.75}}</string>
 					<key>Frame-HD</key>
-					<string>{{396, 772}, {100, 115}}</string>
+					<string>{{1812, 644}, {100, 115}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>SpriteSize</key>
@@ -1228,9 +2233,9 @@
 				</dict>
 				<dict>
 					<key>Frame</key>
-					<string>{{125, 193}, {22.75, 24}}</string>
+					<string>{{432.5, 196.75}, {22.75, 24}}</string>
 					<key>Frame-HD</key>
-					<string>{{500, 772}, {89, 96}}</string>
+					<string>{{1730, 787}, {89, 96}}</string>
 					<key>IsRotated</key>
 					<false/>
 					<key>SpriteSize</key>
@@ -1261,6 +2266,187 @@
 			<false/>
 			<key>UniqueName</key>
 			<string>PoofAnimation</string>
+		</dict>
+		<dict>
+			<key>DelayPerUnit</key>
+			<real>0.40000000596046448</real>
+			<key>Frames</key>
+			<array>
+				<dict>
+					<key>Frame</key>
+					<string>{{257, 161}, {56.5, 34.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{1028, 644}, {226, 138}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{0.125, -0.125}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear1</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{257, 232}, {52.75, 34.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{1028, 928}, {209, 139}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-2, -0.25}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear2</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{257, 267.75}, {52.75, 34.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{1028, 1071}, {209, 139}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-2, -0.25}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear3</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{257, 303.5}, {52.75, 34.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{1028, 1214}, {209, 139}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-2, -0.25}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear4</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{314.5, 161}, {52.75, 34.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{1258, 644}, {209, 139}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-2, -0.25}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear5</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{314.5, 196.75}, {51, 35}}</string>
+					<key>Frame-HD</key>
+					<string>{{1258, 787}, {204, 140}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-2.625, -0.375}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear6</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{367.75, 161}, {51.75, 34.75}}</string>
+					<key>Frame-HD</key>
+					<string>{{1471, 644}, {205, 137}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-2.5, -0}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear7</string>
+				</dict>
+				<dict>
+					<key>Frame</key>
+					<string>{{257, 196.5}, {53, 34.5}}</string>
+					<key>Frame-HD</key>
+					<string>{{1028, 786}, {212, 138}}</string>
+					<key>IsRotated</key>
+					<false/>
+					<key>SpriteSize</key>
+					<string>{58.25, 36.25}</string>
+					<key>TextureOffset</key>
+					<string>{-1.625, -0.125}</string>
+					<key>delayPerUnit</key>
+					<real>1</real>
+					<key>notifications</key>
+					<dict/>
+					<key>offset</key>
+					<string>{0, 0}</string>
+					<key>spriteframe</key>
+					<string>bear8</string>
+				</dict>
+			</array>
+			<key>Loop</key>
+			<true/>
+			<key>Repetitions</key>
+			<integer>1</integer>
+			<key>RestoreOriginalFrame</key>
+			<true/>
+			<key>SheetImage</key>
+			<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
+			<key>SheetName</key>
+			<string>UntitledSheet</string>
+			<key>StartAtLaunch</key>
+			<true/>
+			<key>UniqueName</key>
+			<string>BearAnimation</string>
 		</dict>
 	</array>
 	<key>SaveSettings</key>

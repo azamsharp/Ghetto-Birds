@@ -9,7 +9,7 @@
 	<key>AutoIncludeXCode</key>
 	<false/>
 	<key>BundleIdentifier</key>
-	<string></string>
+	<string>com.yourcompany.AngryBirds-iOS</string>
 	<key>CodePathRelative</key>
 	<string>.</string>
 	<key>CustomClasses</key>
@@ -35,6 +35,7 @@
 		<string>DEFAULT</string>
 		<string>ANGRY_BIRD</string>
 		<string>PIG</string>
+		<string>WOOD</string>
 	</array>
 </dict>
 </plist>

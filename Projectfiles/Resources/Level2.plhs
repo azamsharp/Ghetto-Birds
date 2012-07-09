@@ -11,7 +11,7 @@
 	<key>JOINTS_INFO</key>
 	<array/>
 	<key>LHVersion</key>
-	<string>1.4.92</string>
+	<string>1.4.9rc4</string>
 	<key>NODES_INFO</key>
 	<array>
 		<dict>
@@ -48,7 +48,7 @@
 							<key>SHSheetName</key>
 							<string>UntitledSheet</string>
 							<key>SHSpriteName</key>
-							<string>ghetto_bg</string>
+							<string>bg_mainlevel</string>
 							<key>SheetImage</key>
 							<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
 							<key>TextureProperties</key>
@@ -62,7 +62,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{0, 161}, {256, 192}}</string>
+								<string>{{0, 0}, {480, 160}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -74,11 +74,11 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{237, 137}</string>
+								<string>{478, 160}</string>
 								<key>Scale</key>
-								<string>{1.9570086002349854, 1.9570086002349854}</string>
+								<string>{1.9922662973403931, 1.9922662973403931}</string>
 								<key>SpriteSize</key>
-								<string>{256, 192}</string>
+								<string>{480, 160}</string>
 								<key>Tag</key>
 								<integer>0</integer>
 								<key>TagName</key>
@@ -86,12 +86,12 @@
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
-								<string>ghetto_bg</string>
+								<string>bg_mainlevel</string>
 								<key>ZOrder</key>
-								<integer>0</integer>
+								<integer>-1</integer>
 							</dict>
 							<key>UniqueName</key>
-							<string>ghetto_bg</string>
+							<string>bg_mainlevel</string>
 						</dict>
 						<dict>
 							<key>AnimationsProperties</key>
@@ -186,7 +186,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{455.75, 196.75}, {17.75, 21}}</string>
+								<string>{{257, 312.25}, {17.75, 21}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -198,15 +198,15 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{98, 238}</string>
+								<string>{86, 255}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
 								<string>{17.75, 21}</string>
 								<key>Tag</key>
-								<integer>1</integer>
+								<integer>0</integer>
 								<key>TagName</key>
-								<string>ANGRY_BIRD</string>
+								<string>DEFAULT</string>
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
@@ -310,7 +310,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{314.5, 250.25}, {5.75, 38.75}}</string>
+								<string>{{290, 167.75}, {5.75, 38.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -322,7 +322,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{359, 254}</string>
+								<string>{744, 252}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -434,7 +434,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{314.5, 250.25}, {5.75, 38.75}}</string>
+								<string>{{290, 167.75}, {5.75, 38.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -446,7 +446,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{385, 254}</string>
+								<string>{777, 252}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -558,7 +558,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{257, 339.25}, {38.75, 5.75}}</string>
+								<string>{{290, 161}, {38.75, 5.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -570,7 +570,7 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{374, 234}</string>
+								<string>{761, 232}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
@@ -682,7 +682,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{314.5, 232.75}, {18.75, 16.5}}</string>
+								<string>{{257, 334.25}, {18.75, 16.5}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -694,15 +694,15 @@
 								<key>Opacity</key>
 								<real>1</real>
 								<key>Position</key>
-								<string>{374, 222}</string>
+								<string>{760, 197}</string>
 								<key>Scale</key>
 								<string>{1, 1}</string>
 								<key>SpriteSize</key>
 								<string>{18.75, 16.5}</string>
 								<key>Tag</key>
-								<integer>2</integer>
+								<integer>0</integer>
 								<key>TagName</key>
-								<string>PIG</string>
+								<string>DEFAULT</string>
 								<key>TextureOffset</key>
 								<string>{0, -0}</string>
 								<key>UniqueName</key>
@@ -712,79 +712,6 @@
 							</dict>
 							<key>UniqueName</key>
 							<string>ghetto_pig</string>
-						</dict>
-						<dict>
-							<key>AnimationsProperties</key>
-							<dict/>
-							<key>Children</key>
-							<array/>
-							<key>CustomClassInfo</key>
-							<dict>
-								<key>ClassName</key>
-								<string>No Class</string>
-							</dict>
-							<key>NodeType</key>
-							<string>LHSprite</string>
-							<key>ParentClass</key>
-							<string>LHBatch</string>
-							<key>ParentName</key>
-							<string>UntitledSheet</string>
-							<key>PathProperties</key>
-							<dict/>
-							<key>PhysicProperties</key>
-							<dict>
-								<key>HandledBySH</key>
-								<true/>
-							</dict>
-							<key>SHSceneName</key>
-							<string>AngryBirdsSpriteHelper.pshs</string>
-							<key>SHSheetName</key>
-							<string>UntitledSheet</string>
-							<key>SHSpriteName</key>
-							<string>poof1</string>
-							<key>SheetImage</key>
-							<string>AngryBirdsSpriteHelper_UntitledSheet.png</string>
-							<key>TextureProperties</key>
-							<dict>
-								<key>Angle</key>
-								<integer>0</integer>
-								<key>Color</key>
-								<string>{{1, 1}, {1, 1}}</string>
-								<key>FlipX</key>
-								<false/>
-								<key>FlipY</key>
-								<false/>
-								<key>Frame</key>
-								<string>{{366.5, 196.75}, {32, 30.75}}</string>
-								<key>IsDrawable</key>
-								<false/>
-								<key>IsExpanded</key>
-								<false/>
-								<key>IsRotated</key>
-								<false/>
-								<key>Locked</key>
-								<false/>
-								<key>Opacity</key>
-								<real>1</real>
-								<key>Position</key>
-								<string>{254, 295}</string>
-								<key>Scale</key>
-								<string>{1, 1}</string>
-								<key>SpriteSize</key>
-								<string>{32, 32}</string>
-								<key>Tag</key>
-								<integer>0</integer>
-								<key>TagName</key>
-								<string>DEFAULT</string>
-								<key>TextureOffset</key>
-								<string>{0, -0.625}</string>
-								<key>UniqueName</key>
-								<string>poof1</string>
-								<key>ZOrder</key>
-								<integer>0</integer>
-							</dict>
-							<key>UniqueName</key>
-							<string>poof1</string>
 						</dict>
 					</array>
 					<key>CustomClassInfo</key>
@@ -828,7 +755,31 @@
 		</dict>
 	</array>
 	<key>PARALLAX_INFO</key>
-	<array/>
+	<array>
+		<dict>
+			<key>ContinuousScrolling</key>
+			<true/>
+			<key>Direction</key>
+			<integer>1</integer>
+			<key>Speed</key>
+			<real>10</real>
+			<key>Sprites</key>
+			<array>
+				<dict>
+					<key>RatioX</key>
+					<real>2</real>
+					<key>RatioY</key>
+					<real>0.0</real>
+					<key>SpriteName</key>
+					<string>bg_mainlevel</string>
+				</dict>
+			</array>
+			<key>UniqueName</key>
+			<string>ColdFrontParallax</string>
+			<key>ZOrder</key>
+			<integer>-1</integer>
+		</dict>
+	</array>
 	<key>ScenePreference</key>
 	<dict>
 		<key>2HDSuffix</key>
@@ -836,7 +787,7 @@
 		<key>BackgroundColor</key>
 		<string>{{1, 1}, {1, 1.5540529468435464e-314}}</string>
 		<key>BundleIdentifier</key>
-		<string>com.yourcompany.AngryBirds-iOS</string>
+		<string></string>
 		<key>CustomClasses</key>
 		<array/>
 		<key>Device</key>
@@ -860,7 +811,6 @@
 			<string>DEFAULT</string>
 			<string>ANGRY_BIRD</string>
 			<string>PIG</string>
-			<string>WOOD</string>
 		</array>
 		<key>ZoomValue</key>
 		<real>0.0</real>
@@ -932,7 +882,7 @@
 		<key>Type</key>
 		<integer>0</integer>
 		<key>WBRect</key>
-		<string>{{0, 0}, {480, 275}}</string>
+		<string>{{0, 0}, {950, 320}}</string>
 	</dict>
 </dict>
 </plist>
