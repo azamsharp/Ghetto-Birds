@@ -11,7 +11,7 @@
 	<key>JOINTS_INFO</key>
 	<array/>
 	<key>LHVersion</key>
-	<string>1.4.9rc4</string>
+	<string>1.4.94</string>
 	<key>NODES_INFO</key>
 	<array>
 		<dict>
@@ -186,7 +186,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{257, 312.25}, {17.75, 21}}</string>
+								<string>{{455.75, 196.75}, {17.75, 21}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -310,7 +310,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{290, 167.75}, {5.75, 38.75}}</string>
+								<string>{{314.5, 250.25}, {5.75, 38.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -434,7 +434,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{290, 167.75}, {5.75, 38.75}}</string>
+								<string>{{314.5, 250.25}, {5.75, 38.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -558,7 +558,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{290, 161}, {38.75, 5.75}}</string>
+								<string>{{257, 339.25}, {38.75, 5.75}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -682,7 +682,7 @@
 								<key>FlipY</key>
 								<false/>
 								<key>Frame</key>
-								<string>{{257, 334.25}, {18.75, 16.5}}</string>
+								<string>{{314.5, 232.75}, {18.75, 16.5}}</string>
 								<key>IsDrawable</key>
 								<true/>
 								<key>IsExpanded</key>
@@ -787,7 +787,7 @@
 		<key>BackgroundColor</key>
 		<string>{{1, 1}, {1, 1.5540529468435464e-314}}</string>
 		<key>BundleIdentifier</key>
-		<string></string>
+		<string>com.yourcompany.AngryBirds-iOS</string>
 		<key>CustomClasses</key>
 		<array/>
 		<key>Device</key>
@@ -811,6 +811,7 @@
 			<string>DEFAULT</string>
 			<string>ANGRY_BIRD</string>
 			<string>PIG</string>
+			<string>WOOD</string>
 		</array>
 		<key>ZoomValue</key>
 		<real>0.0</real>

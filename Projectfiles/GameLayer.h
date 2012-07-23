@@ -17,5 +17,7 @@
     LHSprite *angryBird; 
     LHSprite *poof; 
     LHParallaxNode *parallaxNode; 
+    CCSprite *dummySprite;
+    
 }
 @end

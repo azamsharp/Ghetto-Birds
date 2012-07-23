@@ -15,6 +15,7 @@ const float32 MINIMUM_TIMESTEP = 1.0f / 600.0f;
 const int32 VELOCITY_ITERATIONS = 8;
 const int32 POSITION_ITERATIONS = 8;
 const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
+#define PTM_RATIO 40.0f
 
 ////////////////////////////////////////////////////////////////////////////////
 -(void)step:(ccTime)dt {
@@ -38,12 +39,12 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
 {
     isTouchEnabled_ = YES; 
     
-    b2Vec2 gravity = b2Vec2(0.0f, -5.0f);
+    b2Vec2 gravity = b2Vec2(0.0f, -2.0f);
     bool doSleep = false; 
     world = new b2World(gravity);
     world->SetAllowSleeping(doSleep);
     
-    loader = [[LevelHelperLoader alloc] initWithContentOfFile:@"Level1"];
+    loader = [[LevelHelperLoader alloc] initWithContentOfFile:@"Level2"];
     
     [loader addObjectsToWorld:world cocos2dLayer:self];
     
@@ -71,6 +72,9 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     
     [parallaxNode setPaused:TRUE];
     
+    dummySprite = [CCSprite spriteWithFile:@"small_image.png"];
+    dummySprite.position = angryBird.position;
+    [self addChild:dummySprite];
     
 }
 
@@ -119,11 +123,10 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
     distance = sqrt(distance);
     
     if(distance <= 10) 
-    {
-        
+    {   
         [angryBird makeDynamic];
-        
-        angryBird.body->ApplyLinearImpulse(b2Vec2(0.5f,0.25f), angryBird.body->GetWorldCenter());
+              
+        angryBird.body->ApplyLinearImpulse(b2Vec2(0.35f,0.3f), angryBird.body->GetWorldCenter());
        
     }
 
@@ -132,6 +135,9 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
 -(void) tick: (ccTime) dt
 {
 	[self step:dt];
+    
+//    if(nil != loader)
+  //      [loader update:dt]; 
     
 	//Iterate over the bodies in the physics world
 	for (b2Body* b = world->GetBodyList(); b; b = b->GetNext())
@@ -150,6 +156,21 @@ const int32 MAXIMUM_NUMBER_OF_STEPS = 25;
             
         }	
 	}
+    
+    // Bullet is moving.
+    if (angryBird.body != nil)
+    {
+        b2Vec2 position = angryBird.body->GetPosition();
+        CGPoint myPosition = self.position;
+        CGSize screenSize = [CCDirector sharedDirector].winSize;
+        
+        // Move the camera.
+        if (position.x > screenSize.width / 2.0f / PTM_RATIO)
+        {
+            myPosition.x = -MIN(screenSize.width * 2.0f - screenSize.width, position.x * PTM_RATIO - screenSize.width / 2.0f);
+            self.position = myPosition;
+        }
+    }
     
 }
 

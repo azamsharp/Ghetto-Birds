@@ -11,6 +11,10 @@
 
 -(void) initializationComplete
 {
+    [[CCDirector sharedDirector] setProjection:CCDirectorProjection2D];
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+
+    
 #ifdef KK_ARC_ENABLED
 	CCLOG(@"ARC is enabled");
 #else
